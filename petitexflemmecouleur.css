@@ -1,2 +1,41 @@
-body {background-color:sandybrown}
-#titre { #af8d78 }
+body {
+    background-color:sandybrown;
+    box-shadow: 0 0 0 350px white;
+    border-left: 50px solid white; 
+    border-right: 50px solid white;
+    border-top: 35px solid white;  
+}
+
+h1 { color: maroon;
+font-size: 35px; 
+font-family: fantasy;
+padding: 35px 35px;}
+
+p { color: chocolate;
+font-size: 15px;
+font-family: fantasy;}
+
+.Q1 {color: chocolate;
+font-size: 15px;
+font-family: fantasy;
+font-style: italic;
+text-decoration: underline;
+text-decoration-color: black;
+}
+
+.BoutonEnvoyer { background-color: chartreuse;}
+
+.lesOptions {font-style: italic;}
+
+div.conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Hauteur de la fenêtre visible */}
+
+
+.item {
+    display:flex;
+    flex-direction: column;
+}
